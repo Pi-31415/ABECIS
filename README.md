@@ -1,4 +1,10 @@
 # ABECIS
+![Image of Version](https://img.shields.io/badge/version-v1.0-green)
+![Image of Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-qt.svg)](https://forthebadge.com)
+
 A Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers
 
 ## Installation
