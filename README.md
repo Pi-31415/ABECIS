@@ -66,7 +66,6 @@ python3 ./abecis.py
 
 ## Algorithm
 
-![Alt text](./media/algorithm.svg)
 <img src="./media/algorithm.svg">
 
 ## User Manual
