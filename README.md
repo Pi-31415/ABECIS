@@ -21,6 +21,6 @@ and change working directory with
 
 `pip3 install torch torchvision torchaudio`
 
-5. Run the python script named **detectVersion.py** using the following command, and install detectron using the command shown by the script.
+5. Run the python script named **setup.py** using the following command, to set up the dependencies.
 
-`python3 ./detectVersion.py`
+`python3 ./setup.py`
