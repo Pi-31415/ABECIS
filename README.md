@@ -7,9 +7,9 @@
 
 A Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers. It works across all platforms (Windows, MacOS and Linux).
 
-![Image of preview 1](./media/windows.png)
+![Running on Windows](./media/windows.png)
 
-![Image of preview 2](./media/mac.png)
+![Running on MacOS](./media/mac.png)
 
 ## Installation
 
@@ -63,3 +63,7 @@ python3 ./abecis.py
 ```
 
 > Note: When running for the first time, it will automatically download the pre-trained model, and will take some time.
+
+## User Manual
+
+Please follow the steps on the application precisely, and it should be intuitive. A detailed user guide video and documentation is coming soon.
