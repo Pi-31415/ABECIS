@@ -5,7 +5,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-qt.svg)](https://forthebadge.com)
 
-A Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers. It works across all platforms (Windows, MacOS and Linux).
+A Free and Open-source **Automated Building Exterior Crack Inspection Software** for Construction and Facility Managers. It works across all platforms (Windows, MacOS and Linux).
 
 ![Running on Windows](./media/windows.png)
 
@@ -67,3 +67,6 @@ python3 ./abecis.py
 ## User Manual
 
 Please follow the steps on the application precisely, and it should be intuitive. A detailed user guide video and documentation is coming soon.
+
+## Contact
+Please contact <pk2269@nyu.edu> for any issues regarding this software.
