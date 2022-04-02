@@ -5,7 +5,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-qt.svg)](https://forthebadge.com)
 
-A Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers
+A Free and Open-source Automated Building Exterior Crack Inspection Software for Construction and Facility Managers. Works cross-platform.
 
 ## Installation
 
