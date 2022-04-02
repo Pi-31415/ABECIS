@@ -29,10 +29,10 @@ and change working directory with
 
 Here, on Windows, installation of detectron 2 might fail. In such case, install it from a local clone using
 
-'''
+```
 git clone https://github.com/facebookresearch/detectron2.git
 python -m pip install -e detectron2
- '''
+```
 
 6. If everything ran smoothly, run ABECIS by
 
