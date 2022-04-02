@@ -24,3 +24,9 @@ and change working directory with
 5. Run the python script named **setup.py** using the following command, to set up the dependencies.
 
 `python3 ./setup.py`
+
+6. If everything ran smoothly, run ABECIS by
+
+`python3 ./abecis.py`
+
+> Note: When running for the first time, it will automatically download the pre-trained model, and will take some time.
