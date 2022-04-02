@@ -47,8 +47,10 @@ Here, on Windows, installation of detectron 2 might fail. In such case, install 
 
 ```
 git clone https://github.com/facebookresearch/detectron2.git
-python -m pip install -e detectron2
+python3 -m pip install -e detectron2
+python3 ./setup.py
 ```
+Don't forget to rerun setup.py to install dependencies afterwards.
 
 6. If everything ran smoothly, run ABECIS by
 
