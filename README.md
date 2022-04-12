@@ -61,7 +61,7 @@ If there is any issue with pycocotools, get C++ build tools first, then install 
 pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
 ```
 
-Don't forget to rerun setup.py to install dependencies afterwards.
+**[IMPORTANT]** Don't forget to rerun setup.py to install dependencies afterwards.
 
 6. If everything ran smoothly, run ABECIS by
 
