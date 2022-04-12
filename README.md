@@ -41,13 +41,7 @@ python3 -m pip install --upgrade pip
 pip3 install torch torchvision torchaudio
 ```
 
-5. Run the python script named **setup.py** using the following command, to set up the dependencies.
-
-```
-python3 ./setup.py
-```
-
-Here, on Windows, installation of detectron 2 might fail. In such case, install it from a local clone using
+5. Install detectron2, the instance segmentation framework used by ABECIS
 
 ```
 git clone https://github.com/facebookresearch/detectron2.git
@@ -61,9 +55,16 @@ If there is any issue with pycocotools, get C++ build tools first, then install 
 pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
 ```
 
+
+6. Run the python script named **setup.py** using the following command, to set up the dependencies.
+
+```
+python3 ./setup.py
+```
+
 **[IMPORTANT]** Don't forget to rerun setup.py to install dependencies afterwards.
 
-6. If everything ran smoothly, run ABECIS by
+7. If everything ran smoothly, run ABECIS by
 
 ```
 python3 ./abecis.py
