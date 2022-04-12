@@ -71,6 +71,10 @@ python3 ./abecis.py
 
 > Note: When running for the first time, it will automatically download the pre-trained model, and will take some time.
 
+## Example Data for Testing
+
+Example data of wall cracks taken in lab using DJI Matrice 300 RTK drone is available [here](https://drive.google.com/drive/folders/1JAcw_7Kw_XL5GmNh1KUp9vH67yRvDQyM?usp=sharing)
+
 ## Algorithm
 
 <img src="./media/algorithm.svg">
