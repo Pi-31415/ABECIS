@@ -54,6 +54,13 @@ git clone https://github.com/facebookresearch/detectron2.git
 python3 -m pip install -e detectron2
 python3 ./setup.py
 ```
+You might also need C++ Build Tools on Windows, get it [here](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+If there is any issue with pycocotools, get C++ build tools first, then install with 
+```
+pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+```
+
 Don't forget to rerun setup.py to install dependencies afterwards.
 
 6. If everything ran smoothly, run ABECIS by
