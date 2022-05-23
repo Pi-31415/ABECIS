@@ -7,6 +7,10 @@
 
 A Free and Open-source **Automated Building Exterior Crack Inspection Software** for Construction and Facility Managers. It works across all platforms (Windows, MacOS and Linux).
 
+![SMART LOGO](https://nyuad.nyu.edu/content/nyuad/en/home/research/faculty-labs-and-projects/smart-construction-research-group/jcr:content/mainparsys/columncontol_1182373776/columnpar4_1/image/image.adaptive.m1524841438804/394.jpg)
+
+This tool has been developed at [S.M.A.R.T. Construction Research Group](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/smart-construction-research-group.html) at New York University Abu Dhabi, as an extension to our previous conference paper published at [DOI:10.22260/ISARC2021/0086](http://dx.doi.org/10.22260/ISARC2021/0086)
+
 ![Running on Windows](./media/windows.png)
 
 ![Running on MacOS](./media/mac.png)
@@ -41,28 +45,39 @@ python3 -m pip install --upgrade pip
 pip3 install torch torchvision torchaudio
 ```
 
-5. Run the python script named **setup.py** using the following command, to set up the dependencies.
-
-```
-python3 ./setup.py
-```
-
-Here, on Windows, installation of detectron 2 might fail. In such case, install it from a local clone using
+5. Install detectron2, the instance segmentation framework used by ABECIS
 
 ```
 git clone https://github.com/facebookresearch/detectron2.git
 python3 -m pip install -e detectron2
+```
+You might also need C++ Build Tools on Windows, get it [here](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+If there is any issue with pycocotools, get C++ build tools first, then install with 
+```
+pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+```
+
+
+6. Run the python script named **setup.py** using the following command, to set up the dependencies.
+
+```
 python3 ./setup.py
 ```
-Don't forget to rerun setup.py to install dependencies afterwards.
 
-6. If everything ran smoothly, run ABECIS by
+**[IMPORTANT]** Don't forget to rerun setup.py to install dependencies afterwards.
+
+7. If everything ran smoothly, run ABECIS by
 
 ```
 python3 ./abecis.py
 ```
 
 > Note: When running for the first time, it will automatically download the pre-trained model, and will take some time.
+
+## Example Data for Testing
+
+Example data of wall cracks taken in lab using DJI Matrice 300 RTK drone is available [here](https://drive.google.com/drive/folders/1JAcw_7Kw_XL5GmNh1KUp9vH67yRvDQyM?usp=sharing)
 
 ## Algorithm
 
