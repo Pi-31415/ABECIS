@@ -115,7 +115,7 @@ def analyseImage(foo, dir_path, thresholdLower, thresholdUpper, ResultPossibleFo
                 im = cv2.imread(os.path.join(
                     folder_dir, image_name))
                 # Detection Classes
-                classes = ['diagonal_crack', 'hairline_crack', 'horizontal_crack',
+                classes = ['diagonal_crack', 'horizontal_crack',
                            'vertical_crack']
                 cfg = get_cfg()
                 cfg.merge_from_file(model_zoo.get_config_file(
@@ -128,7 +128,7 @@ def analyseImage(foo, dir_path, thresholdLower, thresholdUpper, ResultPossibleFo
                 cfg.SOLVER.IMS_PER_BATCH = 2
                 cfg.SOLVER.BASE_LR = 0.00025
                 cfg.SOLVER.MAX_ITER = 3000
-                cfg.MODEL.ROI_HEADS.NUM_CLASSES = 4  # Change this according to your classes
+                cfg.MODEL.ROI_HEADS.NUM_CLASSES = 3  # Change this according to your classes
                 os.makedirs(cfg.OUTPUT_DIR, exist_ok=True)
                 cfg.MODEL.WEIGHTS = os.path.join(
                     cfg.OUTPUT_DIR, "model_final.pth")
@@ -693,7 +693,8 @@ class MainWindow(QWidget):
     def initUI(self):
         # Set up UI and Method Bindings here
         self.resize(500, 800)
-        self.setWindowTitle('ABECIS v.1.0 - S.M.A.R.T. Construction Research Group')
+        self.setWindowTitle(
+            'ABECIS v.1.0 - S.M.A.R.T. Construction Research Group')
         # GUI Setup
         # Labels
         self.labelHelp = QLabel(
