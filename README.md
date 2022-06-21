@@ -1,4 +1,5 @@
 # ABECIS
+
 ![Image of Version](https://img.shields.io/badge/version-v1.0-green)
 ![Image of Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
 
@@ -17,7 +18,8 @@ This tool has been developed at [S.M.A.R.T. Construction Research Group](https:/
 
 ## Installation
 
-Before starting, have the sudo access using 
+Before starting, have the sudo access using
+
 ```
 sudo -s
 ```
@@ -56,13 +58,14 @@ pip3 install torch torchvision torchaudio
 git clone https://github.com/facebookresearch/detectron2.git
 python3 -m pip install -e detectron2
 ```
+
 You might also need C++ Build Tools on Windows, get it [here](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
-If there is any issue with pycocotools, get C++ build tools first, then install with 
+If there is any issue with pycocotools, get C++ build tools first, then install with
+
 ```
 pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
 ```
-
 
 6. Run the python script named **setup.py** using the following command, to set up the dependencies.
 
@@ -86,11 +89,12 @@ Example data of wall cracks taken in lab using DJI Matrice 300 RTK drone is avai
 
 ## Algorithm
 
-<img src="./media/algorithm.svg">
+<img src="./media/algorithm.png">
 
 ## User Manual
 
 Please follow the steps on the application precisely, and it should be intuitive. A detailed user guide video and documentation is coming soon.
 
 ## Contact
+
 Please contact <pk2269@nyu.edu> for any issues regarding this software.
