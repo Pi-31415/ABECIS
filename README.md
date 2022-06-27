@@ -82,7 +82,7 @@ python3 ./setup.py --user
 7. If everything ran smoothly, run ABECIS by
 
 ```
-python3 ./abecis.py --user
+python3 ./abecis.py
 ```
 
 > Note: When running for the first time, it will automatically download the pre-trained model, and will take some time.
