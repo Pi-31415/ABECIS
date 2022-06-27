@@ -74,7 +74,7 @@ pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&sub
 6. Run the python script named **setup.py** using the following command, to set up the dependencies.
 
 ```
-python3 ./setup.py
+python3 ./setup.py --user
 ```
 
 **[IMPORTANT]** Don't forget to rerun setup.py to install dependencies afterwards.
@@ -82,7 +82,7 @@ python3 ./setup.py
 7. If everything ran smoothly, run ABECIS by
 
 ```
-python3 ./abecis.py
+python3 ./abecis.py --user
 ```
 
 > Note: When running for the first time, it will automatically download the pre-trained model, and will take some time.
